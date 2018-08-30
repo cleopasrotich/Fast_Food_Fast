@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(../img/french.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.container{
+    text-align: center;
+    font-family: cursive;
+
+}
+table{
+    width: 800px;
+    margin: auto;
+    text-align: center;
+    table-layout: fixed;
+}
+
+table, tr, th, td{
+    padding: 20px;
+    color: aquamarine;
+    border: 1px solid #080808;
+    border-collapse: collapse;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    background: linear-gradient(top, #3c3c3c 0%,#222222 100%);
+    background: -webkit-linear-gradient(top, #3c3c3c 0%, #222222 100%);
+
+}
+
+a{
+    text-decoration: none;
+    color: blueviolet;
+}
+
+a:hover{
+    cursor: pointer;
+    color: rgb(207, 16, 16);
+}
+
+.button{
+    padding-left: 47%;
+}
+
+.button input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    color: rgb(15, 5, 5);
+    font-size: 18px;
+    border-radius: 13px;
+    text-align: right;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.button input[type="submit"]:hover{
+    cursor: pointer;
+    background: cyan;
+}
+
+.total{
+    padding-left: 20%;
+    border: black;
+    color: antiquewhite;
+    font-family: 'Courier New', Courier, monospace;
+}
+
