@@ -1,22 +1,47 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Category</title>
+    <title>Snacks</title>
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/categry.css">
 </head>
 <body>
-    <div class="container">
-        <h2>Snacks</h2>
-    </div>
-    <div class="product">
-        <ul>
-            <a href="nachos.html"><li><div class="contain">Bacon Nachos</div></li></a>
-            <a href="cheese.html"><li><div class="contain">Cheese</div></li></a>
-            <a href="garlic bread.html"><li><div class="contain">Garlic Bread</div></li></a>
+    <div class="row">
+        <ul class="nav-menu">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="categry.html">CATEGORIES</a></li>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">CONTACT</a></li>
+            <li><a href="shoppingcart.html">CART</a></li>
         </ul>
     </div>
-
+    <div class="button">
+        <div class="col-1"></div>
+        <div class="col-3">
+            <a class="bev" href="cheese.html">
+                <input type="button" value="French cheese">
+                <img src="img/cheese.png" alt="Beverages" class="responsive-img">
+            </a>
+        </div>
+        <div class="col-3">
+            <a class="snack" href="garlic_bread.html">
+                <input type="button" value="Garlic bread">
+                <img src="img/garlic_bread.png" alt="Beverages" class="responsive-img">
+            </a>
+        </div>
+        <div class="col-3">
+            <a class="main" href="nachos.html">
+                <input type="button" value="Nachos">
+                <img src="img/nachos.png" alt="Beverages" class="responsive-img">
+            </a>
+        </div>
+    </div>
+    <div class="container">
+            <h1>FAST.FOOD.FAST</h1>
+            <p>the best food service delivery app</p>
+    </div>
 </body>
 </html>
