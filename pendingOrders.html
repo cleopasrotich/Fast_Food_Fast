@@ -6,13 +6,20 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>pending orders</title>
     <link rel="stylesheet" href="css/table.css">
+    <link rel="stylesheet" href="css/edit.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-   <header>
-       <h1>Pending orders</h1>
-   </header>
-
+   <div class="nav-menu">
+        <ul>
+            <li><a href="homeAdmin.html">Add Food</a></li>
+            <li><a href="edit_item.html">Edit Food</a></li>
+            <li><a href="pendingOrders.html">Current Orders</a></li>
+            <li><a href="orderHisto.html">Order History</a></li>
+        </ul>
+    </div>
     <div class="table">
+        <h2>Pending orders</h2>
         <div class="reject">
             <table>
                 <tr>
@@ -28,16 +35,16 @@
                     <td>John Wick</td>
                     <td>2 chips,1/4 chicken</td>
                     <td>Juja</td>
-                    <td><a href="orderHisto.html"><input type="button" name="" placeholder="ACCEPT"></a></td>
-                    <td><a href="http://"><input type="button" name="" placeholder="REJECT"></a></td>
+                    <td><a href="orderHisto.html"><input type="button" value="ACCEPT"></td>
+                    <td><a href="http://"><input type="button" value="REJECT"></a></td>
                 </tr>
                 <tr>
                     <td>V2511</td>
                     <td>Beverly Mideva</td>
                     <td>Pizza large, Latte</td>
                     <td>Kasarani</td>
-                    <td><a href="orderHisto.html"><input type="button" name="" placeholder="ACCEPT"></a></td>
-                    <td><a href="http://"><input type="button" name="" placeholder="REJECT"></a></td>
+                    <td><a href="orderHisto.html"><input type="button" value="ACCEPT"></a></td>
+                    <td><a href="http://"><input type="button" value="REJECT"></a></td>
                 </tr>
             </table>
         </div>
