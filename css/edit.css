@@ -1,0 +1,17 @@
+
+
+a:hover{
+    cursor: pointer;
+    color: orchid;
+}
+
+.login-inbox{
+    padding: 50px 30px;
+    height: 550px;
+}
+
+h2, h3{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: antiquewhite;
+}
